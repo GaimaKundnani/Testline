@@ -1,6 +1,6 @@
 import pandas as pd
 import json
-file_path = r"C:\Users\garim\OneDrive\Desktop\Assignment\Testline\quiz_submission_data.json"
+file_path = r"quiz_submission_data.json"
 with open(file_path, 'r') as file:
     data = json.load(file)
 data["accuracy"] = float(data["accuracy"].strip(" %"))
