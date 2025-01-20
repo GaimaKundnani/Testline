@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-df = pd.read_json(r"C:\Users\garim\OneDrive\Desktop\Assignment\Testline\historical_data.json")
+df = pd.read_json(r"historical_data.json")
 
 total_score = df['score'][0]
 final_score = float(df['final_score'][0])
