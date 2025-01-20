@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-df = pd.read_json(r"C:\Users\garim\OneDrive\Desktop\Assignment\Testline\quiz_endpoint.json")
+df = pd.read_json(r"quiz_endpoint.json")
 print(df["quiz"].head())
 
 questions = []
